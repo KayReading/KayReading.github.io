@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>VRead</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./css/default.css" rel="stylesheet" type="text/css"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+        <script src="./js/all.js" type="text/javascript"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital" rel="stylesheet" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6JFM3WZPZJ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-6JFM3WZPZJ');
+        </script>
+    </head>
+    <body>
+        <div id="top">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light border-bottom shadow">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <a class="navbar-brand" href="http://localhost:8383/E-Commerce/index.html"><img src="Image/Logo.png" width="100" height="80" alt=""/></a>
+
+                        <ul class="navbar-nav fa-lg ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="http://localhost:8383/E-Commerce/index.html">
+                                    <div class="mr-3"><i class="fas fa-home"></i>Home</div>
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="Subject.xhtml" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="mr-3"><i class="fas fa-book"></i>Book Type</div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="Scientific.html">Scientific</a></li>
+                                    <li><a class="dropdown-item" href="Literature.html">Literature</a></li>
+                                    <li><a class="dropdown-item" href="Comic.html">Comics</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://localhost:8383/E-Commerce/AboutUs.html"><i class="far fa-calendar-alt"></i>About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://localhost:8383/E-Commerce/Booking.html"><i class="far fa-calendar-alt"></i>Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div id="ShortMsg" class="carousel slide mb-5 border-bottom" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Image/HomePage.png" alt="" class="w-100"/>
+                    <div class="shortmsg">
+                        <h1>Looking for Books ?</h1>
+                        <h5>Reading can be a hobby</h5>
+                        <h5>It can also be for learning</h5>
+                        <h5>Subscribe and enjoy your reading at here</h5>
+                    </div>
+                    <div class="shortmsg2 text-center shadow px-3">
+                        <h4><b>Teaching4U</b></h4>
+                        <h5 class="text-justify">If you are enjoying on reading and looking for more books, Teaching4u is the best choice for you</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Subject" class="container text-center mb-5">
+            <div class="header-lined text-center my-5"><h1><b>Type of Book</b></h1></div>
+            <div class="row mb-3 d-flex justify-content-between" >
+                <div class="col-3 text-center" >
+                    <div class="card border shadow">
+                        <div class="card-header border"><h3><b>Scientific</b></h3></div>
+                        <div class="card-body p-0">
+                            <img src="Image/BookType/scientific.png" alt="" class="w-100 p-0"/>
+                        </div>
+                        <div class="card-footer border">
+                            <a class="btn btn-color rounded-pill" href="Scientific.html">
+                                View
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 text-center" >
+                    <div class="card border shadow">
+                        <div class="card-header border"><h3><b>Literature</b></h3></div>
+                        <div class="card-body p-0">
+                            <img src="Image/BookType/Literature.png" alt="" class="w-100 p-0"/>
+                        </div>
+                        <div class="card-footer border">
+                            <a class="btn btn-color rounded-pill" href="Literature.html">
+                                View
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 text-center" >
+                    <div class="card border shadow">
+                        <div class="card-header border"><h3><b>Comic</b></h3></div>
+                        <div class="card-body p-0">
+                            <img src="Image/BookType/Comic.png" alt="" class="w-100 p-0"/>
+                        </div>
+                        <div class="card-footer border">
+                            <a class="btn btn-color rounded-pill" href="Comic.html">
+                                View
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mx-0 mt-5 border py-5 p-5">
+            <div class="col">
+                <div class="row">
+                    <div class="col-2 text-right pr-0 d-flex my-auto">
+                        <i class="fas fas fa-book myicon3 fa-3x fa-fw"></i>
+                    </div>
+                    <div class="col-10 pt-2">
+                        <p class="mb-0"><b>Reading</b></p>
+                        <p>Reading transports us to worlds we would never see, introduces us to people we would never meet, and instills emotions we might never otherwise feel.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class="col-2 text-right pr-0 d-flex my-auto">
+                        <i class="fas fas fa-door-open myicon3 fa-3x fa-fw"></i>
+                    </div>
+                    <div class="col-10 pt-2">
+                        <p class="mb-0"><b>Gateway</b></p>
+                        <p>You never know what kinds of doors a book will open. That's why Teaching4u was so excited to hear how we helped people to change their world. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class="col-2 text-right pr-0 d-flex my-auto">
+                        <i class="fas fa-chart-line myicon3 fa-3x fa-fw"></i>
+                    </div>
+                    <div class="col-10 pt-2">
+                        <p class="mb-0"><b>Success</b></p>
+                        <p>We will keep on offering books to public because it has given people a chance to read. We believes that together we can make a real difference and reading can really change somebody's life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="header-lined text-center pt-5"><b>Why choose Us</b></h1>
+        <div class="container text-justify">
+            <div class="row mx-0 mt-5 py-2 ">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-2 text-right">
+                            <i class="fas fa-award myicon3 fa-3x fa-fw"></i>
+                        </div>
+                        <div class="col-10 px-0">
+                            <p class="mb-0"><b>Help students achieve reading excellence</b></p>
+                            <p>we provide opportunities for children and their families to experience the life-changing impact of reading. Reading is the fundamental building block to all life’s essential skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col offset-1">
+                    <div class="row">
+                        <div class="col-2 text-right">
+                            <i class="far fa-check-square myicon3 fa-3x fa-fw"></i>
+                        </div>
+                        <div class="col-10 px-0">
+                            <p class="mb-0"><b>Our Books</b></p>
+                            <p>Through partnerships with book publishers, volunteers, community groups, organizations, and like-minded corporations, VRead has distributed more than 420 million books.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-0 py-2 mt-2">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-2 text-right">
+                            <i class="fas fa-user-shield myicon3 fa-3x fa-fw"></i>
+                        </div>
+                        <div class="col-10 px-0">
+                            <p class="mb-0"><b>Build a more literate World</b></p>
+                            <p>VRead is committed to making local literacy impact through our many partners. From large to small, each organization Teaching4u partners with is working to create a more literate World.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col offset-1">
+                    <div class="row">
+                        <div class="col-2 text-right">
+                            <i class="fas fa-business-time myicon3 fa-3x fa-fw"></i>
+                        </div>
+                        <div class="col-10 px-0">
+                            <p class="mb-0"><b>Always updating</b></p>
+                            <p>When you finish a book, you have to get a new one. When you finish an online article, you can just wait a day or so for more articles to be published.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="copyright" class="text-center">
+            <p>&copy; Copyright 2020 Teaching4U | All Rights Reserved</p>
+        </div>
+    </body>
+</html>

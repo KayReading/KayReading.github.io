@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 4, 2020, 12:26:25 AM
+    Author     : Asus
+*/
+
+.shortmsg{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    left: 40%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+.shortmsg h1{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 5%;
+    text-align: right;
+}
+
+.shortmsg h5{
+    color: rgb(230,0,0);
+    font-size: 40px;
+    margin-top: 50P;
+}
+
+.shortmsg2 {
+    position: absolute;
+    right: 36%;
+    top: 65%;
+    left: 36%;
+    z-index: 10;
+    padding: 10px;
+    color: #fff;
+    text-align: justify;
+    background-color: rgba(150,50,50,0.2);
+    border-radius: 20px;
+}
+
+.myicon3{
+    color: RGBA(200,50,50,0.7);
+}
+
+.btn-color{
+    background-color: rgb(200,50,50) !important;
+    color: #fff !important;
+}
+
+.btn-color:hover{
+    background-color: #baabf2;
+    color: rgb(100,0,0) !important;
+}
+
+.card-footer{
+    background-color: rgb(150,50,50) !important;
+}
+
+.Head {
+    position: absolute;
+    right: 30%;
+    top: 35%;
+    left: 30%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+
+.HeaderFont{
+    font-size: 4em;
+}
+
+.SubDesc{
+    font-family: 'Playfair Display', serif;
+}
+
+.justify-content-even{
+    justify-content: space-evenly !important;
+}
+
+.border-booking{
+    border-right: 1px solid RGBA(150,150,150,0.5) ;
+}
+
+.text-blue{
+    color: RGBA(100,100,100,0.7);
+}
+
+.text-space{
+    padding: .375rem 0;
+}
+
+.header-lined{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+}
+
+.sec-line{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.SubDesc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+#copyright{
+    background-color: #aaa;
+    padding: 30px 0px;
+}
